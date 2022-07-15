@@ -1,0 +1,64 @@
+.hero-header{
+   background: #014E56;
+}
+.talent-content{
+   position: relative;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+   padding: 70px 0px 250px 0px;
+   &::before{
+      position: absolute;
+      background-image: url("../images/hero.bcg.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100px;
+      height: 200px;
+      left: -155px;
+      content: '';
+   }
+}
+.find-box{
+   width: 100%;
+   max-width: 620px;
+}
+.find-title{
+   font-weight: 700;
+   font-size: 100px;
+   line-height: 100%;
+   color: #FFFFFF;
+   margin: 0;
+}
+.find-span{
+   color: #f67e7e;
+}
+.people-box{
+   width: 100%;
+   max-width: 445px;
+   position: relative;
+   &::before{
+      position: absolute;
+      width: 50px;
+      height: 4px;
+      background: #79C8C7;
+      top: -55px;
+      left: 0px;
+      content: "";
+   }
+   &::after{
+      position: absolute;
+      background-image: url("../../images/./hero.after.png");
+      background-repeat: no-repeat;
+      background-size: 358px 100px;
+      width: 358px;
+      height: 100px;
+      content: '';
+      bottom: -250px;
+   }
+}
+.find-text{
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 156%;
+   color: #FFFFFF;
+}
