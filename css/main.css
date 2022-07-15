@@ -501,7 +501,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 70px 0px 200px 0px;
+  padding: 70px 0px 220px 0px;
 }
 
 .talent-content::before {
@@ -556,7 +556,8 @@ main {
   width: 358px;
   height: 100px;
   content: '';
-  bottom: -200px;
+  bottom: -220px;
+  left: 70px;
 }
 
 .find-text {
