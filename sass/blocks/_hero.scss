@@ -34,9 +34,9 @@
    color: #f67e7e;
 }
 .people-box{
+   position: relative;
    width: 100%;
    max-width: 445px;
-   position: relative;
    &::before{
       position: absolute;
       width: 50px;
@@ -46,7 +46,7 @@
       left: 0px;
       content: "";
    }
-   &::after{
+   .people-box::after{
       position: absolute;
       background-image: url("../../images/./hero.after.png");
       background-repeat: no-repeat;
@@ -56,7 +56,6 @@
       max-height: 100px;
       content: '';
       bottom: -220px;
-      left: 70px;
    }
 }
 .find-text{
@@ -117,8 +116,15 @@
       color: #FFFFFF;
    }
    .people-box::after{
-      display: none;
-      left: 0px;
+      position: absolute;
+      background-image: url("../images/./hero.after.png");
+      background-repeat: no-repeat;
+      background-size: 358px 100px;
+      width: 100%;
+      max-width: 358px;
+      max-height: 100px;
+      content: '';
+      bottom: -220px;
    }
 }
 
@@ -126,5 +132,16 @@
    .talent-content{
       width: 100%;
       max-width: 100%;
+   }
+   .people-box::after{
+      position: absolute;
+      background-image: url("../images/./hero.after.png");
+      background-repeat: no-repeat;
+      background-size: 300px 100px;
+      width: 100%;
+      max-width: 358px;
+      max-height: 100px;
+      content: '';
+      bottom: -220px;
    }
 }
