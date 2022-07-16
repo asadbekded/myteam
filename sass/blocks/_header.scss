@@ -44,3 +44,42 @@
       background: #FFFFFF;
    }
 }
+.burger-btn{
+   display: none;
+   background-color: #014E56;
+   border: none;
+   color: #fff;
+   width: 20px;
+   margin-left: auto;
+}
+
+@media only screen and (max-width: 800px){
+   .contact-link{
+      max-width: 130px;
+   }
+}
+
+
+@media only screen and (max-width: 580px){
+   .contact-link{
+      max-width: 120px;
+   }
+   .header-list{
+      margin-left: 50px;
+   }
+}
+
+
+@media only screen and (max-width: 576px){
+   .header-list{
+      display: none;
+   }
+   .contact-link{
+      display: none;
+   }
+   .burger-btn{
+      display: inline-block;
+      font-size: 20px;
+   }
+
+}
