@@ -53,14 +53,14 @@
    margin-left: auto;
 }
 
-@media only screen and (max-width: 800px){
+@include max-width (800px){
    .contact-link{
       max-width: 130px;
    }
 }
 
 
-@media only screen and (max-width: 580px){
+@include max-width (580px){
    .contact-link{
       max-width: 120px;
    }
@@ -70,7 +70,7 @@
 }
 
 
-@media only screen and (max-width: 576px){
+@include max-width (576px){
    .header-list{
       display: none;
    }
