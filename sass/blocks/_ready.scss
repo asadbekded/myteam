@@ -59,7 +59,7 @@
          max-width: 200px;
          height: 244px;
          bottom: -100px;
-         left: -150px;
+         left: -30px;
          content: '';
       }
    }
@@ -79,18 +79,18 @@
    .ready-content{
       display: block;
       text-align: center;
+      padding: 76px 60px 90px 60px;
       max-width: 320px;
       margin: 0px auto;
-      margin-bottom: 50px;
       &::before{
          position: absolute;
          background-image: url('../images/ready.after.png');
          background-repeat: no-repeat;
          width: 100%;
          max-width: 200px;
-         height: 244px;
-         bottom: -100px;
-         left: -35%;
+         height: 144px;
+         bottom: -1px;
+         left: -50px;
          content: '';
       }
    }

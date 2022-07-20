@@ -1,0 +1,121 @@
+footer{
+   background-color: #002529;
+}
+.footer-content{
+   margin-top: 0px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 48px 0px 48px 0px;
+}
+.footer-list{
+   margin: 0;
+   padding: 0;
+   margin-top: 25px;
+   display: flex;
+   align-items: center;
+}
+.footer-item + .footer-item{
+   margin-left: 40px;
+}
+
+.lane-box{
+   width: 100%;
+   max-width: 200px;
+}
+.lane-link{
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 167%;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.6;
+}
+.icon-content{
+   margin-bottom: 45px;
+   text-align: right;
+}
+.icon-footer{
+   fill: #FFFFFF;
+   margin-left: 15px;
+   &:hover{
+      fill: #F67E7E;
+   }
+}
+.icon-str{
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 167%;
+   color: #FFFFFF;
+   mix-blend-mode: normal;
+   opacity: 0.6;
+}
+.hero-icon{
+   margin-left: 0;
+}
+
+@include max-width (830px){
+   .footer-content{
+      flex-wrap: wrap;
+      justify-content: space-between;
+   }
+   .icon-box{
+      margin-top: 33px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      // margin-left: auto;
+   }
+   .lane-box{
+      text-align: right;
+   }
+   .icon-content{
+      margin-bottom: 0;
+   }
+
+   .icon-text{
+      display: flex;
+      text-align: right;
+      margin-left: auto;
+   }
+}
+
+@include max-width (580px){
+   .footer-content{
+      margin: 0px auto;
+      display: block;
+      text-align: center;
+   }
+   .logo-footer{
+      text-align: center;
+   }
+   .footer-list{
+   }
+   .footer-item{
+     margin: 0px auto; 
+   }
+   .footer-link{
+      display: block;
+      margin: 0px;
+   }
+   .lane-box{
+      margin: 0px auto;
+      margin-top: 24px;
+      text-align: center;
+   }
+   .icon-box{
+      margin-top: 30px;
+      text-align: center;
+      display: block;
+   }
+   .icon-content{
+      text-align: center;
+   }
+   .icon-text{
+      margin-top: 18px;
+   }
+   .icon-str{
+      text-align: center;
+      margin: 0px auto;
+   }
+}
